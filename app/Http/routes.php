@@ -12,5 +12,5 @@
 */
 
 Route::get('/', function () {
-    return 'Ho aggiornato da GitHub!';
+    return view('welcome');
 });
